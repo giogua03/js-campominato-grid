@@ -62,3 +62,27 @@ h1 {
 	background-color: blue;
     color: white;
 }
+.small-e {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 4.5rem;
+	width: 4.5rem;
+	background-color: orange;
+}
+.small-d {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 6rem;
+	width: 6rem;
+	background-color: orange;
+}
+.small-d.active {
+	background-color: blue;
+    color: white;
+}
+.small-e.active {
+	background-color: blue;
+    color: white;
+}
