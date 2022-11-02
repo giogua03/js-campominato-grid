@@ -36,8 +36,11 @@ for (let i = 1; i < 101; i++) {
 			eleSmall.addEventListener('click', function () {
 				this.classList.toggle('active')
 			});
-			eleBig.innerHTML=''
+			
 		}
+		eleButton.addEventListener('click', function () {
+			eleBig.innerHTML=''
+		});
 		
 
 } else {
