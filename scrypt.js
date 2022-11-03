@@ -3,6 +3,7 @@ const eleButton = document.querySelector('button')
 
 eleButton.addEventListener('click', function(){
 let eleOption = document.querySelector('#list').value
+eleBig.innerHTML=''
 if (eleOption == "1"){
 
 
@@ -18,9 +19,7 @@ for (let i = 1; i < 101; i++) {
 		this.classList.toggle('active')
 	});
 	
-	eleButton.addEventListener('click', function () {
-		eleBig.innerHTML=''
-	});
+	
 	
 }
 
@@ -40,17 +39,17 @@ for (let i = 1; i < 101; i++) {
 			});
 			
 		}
-		eleButton.addEventListener('click', function () {
-			eleBig.innerHTML=''
-		});
+		
 		
 
 } else {
+
 	
 
 		let i
 		
 		for (let i = 1; i < 50; i++) {
+
 			const eleSmall = document.createElement( 'div');
 			eleSmall.classList.add('small-d');
 			eleBig.append(eleSmall);
@@ -62,8 +61,6 @@ for (let i = 1; i < 101; i++) {
 			
 		}
 		
-		eleButton.addEventListener('click', function () {
-			eleBig.innerHTML=''
-		});
+		
 }
 });
